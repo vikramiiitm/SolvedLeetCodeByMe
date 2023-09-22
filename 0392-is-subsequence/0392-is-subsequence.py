@@ -12,3 +12,16 @@ class Solution:
                 t=t[1:]
         if parsed == s:
             return True
+
+
+# Other solution: Read it
+
+'''
+
+class Solution:
+    def isSubsequence(self, s: str, t: str) -> bool:
+        x=iter(t)
+        return all(ch in x for ch in s)
+        
+
+'''
